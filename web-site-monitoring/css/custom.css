@@ -1,0 +1,64 @@
+.tabel-sector{
+    display:flex;
+    position : relative;
+}
+.sector-1{
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.sector-2{
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.sector-3{
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.delete-button{
+    /* display: inline-block; */
+    padding: 10px 20px;
+    color:white;
+    background-color: red;
+    border: 2px solid red;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button-control{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;  
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.buttons{
+    /* display: inline-block; */
+    padding: 10px 30px;
+    color:black;
+    background-color: transparent;
+    border: 2px solid orange;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    text-decoration: none;
+}
+
+.buttons:hover{
+    color: white;
+    background-color: orange;
+    border: 2px solid white;
+}
